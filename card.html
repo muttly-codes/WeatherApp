@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Doomed Planet Weather App</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <style>
+    body {
+      font-family: 'Courier New', Courier, monospace;
+      background-image: url(https://64.media.tumblr.com/84f77b0f0109687a58e5f852d9bf3583/6d7ccfb0efafbc2e-fd/s2048x3072/3d735c2e5f7474e7cfb2e8ae4b00354a7d07cdde.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center top;
+      padding: 30px;
+      text-align: center;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    #weather-container {
+      border: 1px solid slategray;
+      border: 1px solid slategrey;
+
+      border-radius: 5px;
+      margin-bottom: 100px;
+      box-shadow: 5px 15px 15px 5px rgba(112, 128, 144, 0.534);
+      background-color: rgba(172, 255, 47, 0.205);
+      text-align: center;
+    }
+    #text {
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: 300;
+    }
+  </style>
+  <link rel="styleSheet" href="styleSheet.css">
+</head>
+
+
+<body style="text-align: end right;">
+  <section id="heading">
+    <header>
+      <div class="row justify-content-center margin=25px 25px 0px">
+        <div class="col-md-10" style="background-color: rgba(235, 84, 84, 0.0);">
+          <div
+            style="text-shadow: rgba(71, 0, 0, 0.85) 7px 33px 23px, whitesmoke 1px 1px 1px, whitesmoke -1px -1px 1px">
+            <h4>THE</h4>
+            <h1 style="font-size: 350%;"">WE'RE ALL SCREWED<em>!!</em></h1>
+            </div>
+              <h3 style=" font-size: 200%; text-shadow: rgba(71, 0, 0, 0.85) 7px 20px 20px, whitesmoke 1px 1px 1px,
+              whitesmoke -1px -1px 1px">LOCAL WEATHER CONDITIONS FORECAST</h3>
+
+          </div>
+        </div>
+      </div>
+    </header>
+  </section>
+
+  </div>
+  </div>
+  <section>
+    <form class="needs-validation" novalidate>
+
+      <div class="form-row justify-content-center">
+        <div class="col-md-6 mb-3" style="color: white; text-shadow: rgba(15, 6, 0, 0.85) 0px 7px 4px">
+          <label for="validationToolTip03">ENTER YOUR DOOMED CITY IN THE SPACE BELOW AND LET US SHOW YOU WHAT THE
+            WEATHER IS NOW AND INTO THE (VERY)
+            NEAR FUTURE*</label>
+          <input type="text" class="form-control is-invalid" id="city" placeholder="CITY" required>
+          <div class="invalid-feedback">
+            Please provide a valid city.
+          </div>
+        </div>
+
+          <div class="input-grounp-append">
+            <button id="forecastBtn" class="btn"
+              style="color: whitesmoke; background-color: rgb(255, 0, 0); box-shadow:  whitesmoke 0px 2px 1px, white 0px 2px 1px"
+              type="submit">forecast</button>
+          </div>
+    </form>
+    <br>
+    <br>
+
+
+
+
+
+    <section id="weatherReturn" <div style="box-sizing: content-box 80% 30%;" </section>
+      <br>
+      <br>
+
+      <div id="text"
+        style="margin:200px 0px 0px 150px; justify-content-right; font-family: 'Courier New', Courier, monospace;font-size: 10px; font-weight: 550;">
+        <p style="margin:0px 0px 0px 100px"><em>*Just
+            please don't shoot the messenger when you see how f*#ked our weather is! I'm not f*#cking God, for f*#cks
+            sake!! (Sorry Greta. I only ever ate meat from cows that didn't fart. I
+            swear!)</em></p>
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+          integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+          crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+          integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+          crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+          integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+          crossorigin="anonymous"></script>
+
+        <script src="fetch.js"></script>
+</body>
+
+</html>

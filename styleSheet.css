@@ -1,0 +1,73 @@
+
+@font-face {
+      font-family: Righteous-Regular;
+      fonts src: url(fonts/Righteous/Righteous-Regular.ttf);
+}
+
+.bgSizeCover {
+      background-image: url(images/woods-image.jpg);
+      background-size: cover; 
+      max-width: 100%; 
+      height: auto;
+    
+      background-image: src("woods-image.jpg");
+      
+}
+#welcome{
+      z-index: 2;
+  background-image: url(https://64.media.tumblr.com/84f77b0f0109687a58e5f852d9bf3583/6d7ccfb0efafbc2e-fd/s2048x3072/3d735c2e5f7474e7cfb2e8ae4b00354a7d07cdde.jpg);
+  image-resolution: ;
+  background-repeat: no-repeat;
+  background-position: top center;
+  }
+#main {
+      display: flex;
+      flex-flow: column wrap;
+      font-family: 'Righteous-Regular', 'Courier New', Courier, monospace;
+
+}
+body {
+      font-family:'Courier New', Courier, monospace;
+      background-image: url(https://64.media.tumblr.com/84f77b0f0109687a58e5f852d9bf3583/6d7ccfb0efafbc2e-fd/s2048x3072/3d735c2e5f7474e7cfb2e8ae4b00354a7d07cdde.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center top;
+        padding: 30px;
+        text-align: center;
+      }
+h1 {
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 500%;
+}
+    
+#weather-container {
+      border: 1px solid slategray;
+      border: 1px solid slategrey;  
+      
+      border-radius: 5px;
+      margin-bottom: 100px;
+      box-shadow: 5px 15px 15px 5px rgba(112, 128, 144, 0.534);
+      background-color: rgba(172, 255, 47, 0.205);
+      text-align: center;
+}
+#heading {
+      margin-top: 25px; 
+      border: px solid slategray; 
+      border-radius: 5%; 
+      background-color: rgba(247, 104, 47, 0.322);
+      color:snow;
+      text-align: center;
+      padding: auto;
+      box-shadow: 5px 5px 10px 5px rgba(112, 128, 144, 0.534); 
+      text-shadow: slategray 2px 2px 2px;">
+}
+
+#text {
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: 300;
+}
+/*body {
+      background-image: url("woods-image.jpg");
+      margin-top: 25px; 
+      font-family: 'Courier New', Courier, monospace;
+    }*/
